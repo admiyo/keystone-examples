@@ -1,0 +1,10 @@
+{ 
+    "user": { 
+           "default_project_id": "d0f445c3379b48f38a2ab0f17314bbf9", 
+            "description": "Description", 
+            "domain_id": "default",
+            "email": "ayoung@redhat.com", 
+            "enabled": true, 
+            "name": "ayoung", 
+            "password": "changeme" } 
+}
