@@ -1,0 +1,8 @@
+dn: cn=ipa-keystone-delegation,cn=s4u2proxy,cn=etc,dc=ipa,dc=cloudlab,dc=freeipa,dc=org
+objectClass: ipaKrb5DelegationACL
+objectClass: groupOfPrincipals
+objectClass: top
+cn: ipa-keystone-delegation
+memberPrincipal: HTTP/ayoungdevstack20.cloudlab.freeipa.org@IPA.CLOUDLAB.FREEIPA.ORG
+ipaAllowedTarget: cn=ipa-keystone-delegation-targets,cn=s4u2proxy,cn=etc,dc=ipa,dc=cloudlab,dc=freeipa,dc=org
+
